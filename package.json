@@ -1,6 +1,6 @@
 {
   "name": "data-administration-app",
-  "version": "30.0.0",
-  "private": true,
-  "homepage": "."
+  "description": null,
+  "license": null,
+  "version": "30.0.0"
 }
