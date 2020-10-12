@@ -1,0 +1,24 @@
+{
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": ".."
+    }
+  },
+  "appType": "APP",
+  "name": "Data Administration",
+  "version": "30.0.0",
+  "description": "Data Administration",
+  "icons": {
+    "48": "icon.png"
+  },
+  "developer": {
+    "url": "https://dhis2.github.io",
+    "name": "DHIS2"
+  },
+  "dhis2": {
+    "apiVersion": "29"
+  },
+  "manifest_generated_at": "Mon Oct 12 2020 22:11:32 GMT+0000 (UTC)"
+}
