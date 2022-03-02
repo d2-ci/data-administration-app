@@ -3,6 +3,7 @@
   "name": "data-administration",
   "title": "Data Administration",
   "coreApp": true,
+  "minDHIS2Version": "2.38",
   "version": "1.1.26",
   "description": ""
 }
