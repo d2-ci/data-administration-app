@@ -1,0 +1,41 @@
+{
+    "name": "data-administration-app",
+    "version": "1.1.42",
+    "description": "",
+    "license": "BSD-3-Clause",
+    "private": true,
+    "scripts": {
+        "build": "d2-app-scripts build",
+        "start": "d2-app-scripts start",
+        "test": "d2-app-scripts test",
+        "cy:start": "BROWSER=none yarn start",
+        "cy:open": "d2-utils-cypress open --appStart 'yarn cy:start'",
+        "cy:run": "d2-utils-cypress run --appStart 'yarn cy:start'",
+        "lint:js": "d2-style check js",
+        "lint:text": "d2-style check text",
+        "lint:staged": "yarn lint:js --staged && yarn lint:text --staged",
+        "lint": "yarn lint:js && yarn lint:text",
+        "format:js": "d2-style apply js",
+        "format:text": "d2-style apply text",
+        "format:staged": "yarn format:js --staged && yarn format:text --staged",
+        "format": "yarn format:js && yarn format:text"
+    },
+    "devDependencies": {
+        "@dhis2/cli-app-scripts": "^8.3.3",
+        "@dhis2/cli-style": "^10.4.1",
+        "@dhis2/cli-utils-cypress": "^7.0.1",
+        "@dhis2/cypress-commands": "^7.0.1",
+        "@dhis2/cypress-plugins": "^7.0.1",
+        "@testing-library/cypress": "^7.0.6",
+        "@testing-library/react-hooks": "^7.0.0",
+        "eslint-plugin-cypress": "^2.11.3"
+    },
+    "dependencies": {
+        "@dhis2/app-runtime": "^3.3.0",
+        "@dhis2/d2-i18n": "^1.1.0",
+        "@dhis2/prop-types": "^2.0.3",
+        "@dhis2/ui": "^7.1.1",
+        "prop-types": "^15.6.0",
+        "react-router-dom": "^5.0.0"
+    }
+}
