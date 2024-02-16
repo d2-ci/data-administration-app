@@ -1,8 +1,10 @@
 {
+  "id": "d685d128-3b31-4a21-adbf-bd1487c3004c",
   "type": "app",
   "name": "data-administration",
   "title": "Data Administration",
   "coreApp": true,
-  "version": "1.2.4",
+  "minDHIS2Version": "2.39",
+  "version": "99.9.9",
   "description": ""
 }
