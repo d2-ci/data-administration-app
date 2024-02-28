@@ -4,7 +4,10 @@
   "name": "data-administration",
   "title": "Data Administration",
   "coreApp": true,
-  "minDHIS2Version": "2.39",
-  "version": "1.2.6",
-  "description": ""
+  "minDHIS2Version": "2.41",
+  "version": "2.0.0",
+  "description": "",
+  "entryPoints": {
+    "app": "index.html"
+  }
 }
