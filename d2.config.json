@@ -5,7 +5,7 @@
   "title": "Data Administration",
   "coreApp": true,
   "minDHIS2Version": "2.41",
-  "version": "100.0.11",
+  "version": "100.0.12",
   "description": "",
   "entryPoints": {
     "app": "index.html"
