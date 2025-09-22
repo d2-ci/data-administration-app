@@ -35,7 +35,7 @@
       "url": "#/min-max-value-generation"
     }
   ],
-  "version": "100.0.16",
+  "version": "100.0.17",
   "description": "",
   "entryPoints": {
     "app": "index.html"
