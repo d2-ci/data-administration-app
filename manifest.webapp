@@ -4,7 +4,7 @@
   "short_name": "data-administration",
   "name": "Data Administration",
   "description": "",
-  "version": "100.0.17",
+  "version": "100.1.0",
   "core_app": true,
   "launch_path": "index.html",
   "default_locale": "en",
@@ -16,8 +16,38 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Thu Sep 11 2025 13:28:37 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Tue Sep 30 2025 11:09:15 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "shortcuts": [
+    {
+      "name": "Data and metadata integrity",
+      "url": "#/data-integrity"
+    },
+    {
+      "name": "Data and metadata maintenance",
+      "url": "#/maintenance"
+    },
+    {
+      "name": "Resource tables",
+      "url": "#/resourceTables"
+    },
+    {
+      "name": "Analytics tables",
+      "url": "#/analytics"
+    },
+    {
+      "name": "Data statistics",
+      "url": "#/data-statistics"
+    },
+    {
+      "name": "Lock exception",
+      "url": "#/lock-exceptions"
+    },
+    {
+      "name": "Min/Max value generation",
+      "url": "#/min-max-value-generation"
+    }
+  ]
 }
