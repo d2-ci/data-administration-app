@@ -46,6 +46,10 @@
     "description": ""
   },
   {
+    "locale": "en_US",
+    "shortcuts": {}
+  },
+  {
     "locale": "es",
     "shortcuts": {}
   },
@@ -55,6 +59,10 @@
   },
   {
     "locale": "fr",
+    "shortcuts": {}
+  },
+  {
+    "locale": "hi_IN",
     "shortcuts": {}
   },
   {
